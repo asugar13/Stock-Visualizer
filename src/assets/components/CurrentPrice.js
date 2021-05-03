@@ -13,6 +13,8 @@ export default ({ selectedStockPrices, selectedStockPrice }) => {
       } else if (selectedStockPrice == selectedStockPrices[selectedStockPrices.length - 2]) {
         setTrendColour("gray")
       }
+    } else {
+      setTrendColour("gray")
     }
 
   }, [selectedStockPrices])

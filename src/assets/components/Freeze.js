@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap"
 export default ({ freeze, setFreeze }) =>
 
   <div>
-    <Button variant="primary" onClick={() => setFreeze(!freeze)} > {freeze ? "Restart" : "Freeze"} </Button>
+    <Button variant="primary" onClick={() => setFreeze(!freeze)} >{freeze ? "Restart" : "Freeze"}</Button>
   </div>
 
 
